@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cqXRZd2VBq8=",
+  "success": true,
+  "projectFilePath": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.Application\\CustomerManagement.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VICTUS\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.8\\microsoft.extensions.dependencyinjection.abstractions.10.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
