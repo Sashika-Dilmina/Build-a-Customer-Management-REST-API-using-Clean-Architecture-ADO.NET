@@ -15,7 +15,7 @@ public class CustomerCreateDto
     public DateTime DateOfBirth { get; set; }
 
     [Required]
-    public CustomerType {  get; set; }
+    public CustomerType CustomerType { get; set; }
 
     [EmailAddress, StringLength(150)]
     public string? Email { get; set; }

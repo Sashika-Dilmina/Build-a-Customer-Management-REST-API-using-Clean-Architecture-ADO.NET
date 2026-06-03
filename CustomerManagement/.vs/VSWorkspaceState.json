@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CustomerManagement.API",
+    "\\CustomerManagement.Application",
+    "\\CustomerManagement.Application\\DTOs",
+    "\\CustomerManagement.Application\\Interfaces",
+    "\\CustomerManagement.Application\\Services",
+    "\\CustomerManagement.Domain",
+    "\\CustomerManagement.Domain\\Enum"
+  ],
+  "SelectedNode": "\\CustomerManagement.Application\\Services\\CustomerService.cs",
+  "PreviewInSolutionExplorer": false
+}

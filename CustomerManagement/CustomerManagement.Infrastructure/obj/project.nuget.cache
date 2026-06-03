@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IAmG03Y85SY=",
+  "dgSpecHash": "gHjOJC2z3XM=",
   "success": true,
-  "projectFilePath": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\Customermanagement.Infrastructure\\CustomerManagement.Infrastructure.csproj",
+  "projectFilePath": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.Infrastructure\\CustomerManagement.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VICTUS\\.nuget\\packages\\microsoft.bcl.cryptography\\9.0.13\\microsoft.bcl.cryptography.9.0.13.nupkg.sha512",
     "C:\\Users\\VICTUS\\.nuget\\packages\\microsoft.data.sqlclient\\7.0.1\\microsoft.data.sqlclient.7.0.1.nupkg.sha512",

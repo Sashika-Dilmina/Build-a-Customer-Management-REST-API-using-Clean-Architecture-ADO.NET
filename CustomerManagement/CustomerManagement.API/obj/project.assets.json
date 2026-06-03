@@ -1299,8 +1299,8 @@
     },
     "CustomerManagement.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../Customermanagement.Infrastructure/CustomerManagement.Infrastructure.csproj",
-      "msbuildProject": "../Customermanagement.Infrastructure/CustomerManagement.Infrastructure.csproj"
+      "path": "../CustomerManagement.Infrastructure/CustomerManagement.Infrastructure.csproj",
+      "msbuildProject": "../CustomerManagement.Infrastructure/CustomerManagement.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {

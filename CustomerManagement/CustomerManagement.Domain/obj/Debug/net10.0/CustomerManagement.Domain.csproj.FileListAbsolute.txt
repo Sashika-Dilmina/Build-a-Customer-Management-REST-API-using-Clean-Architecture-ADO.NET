@@ -1,0 +1,12 @@
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Domain\obj\Debug\net10.0\CustomerManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Domain\obj\Debug\net10.0\CustomerManagement.Domain.AssemblyInfoInputs.cache
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Domain\obj\Debug\net10.0\CustomerManagement.Domain.AssemblyInfo.cs
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Domain\obj\Debug\net10.0\CustomerManagement.Domain.csproj.CoreCompileInputs.cache
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Domain\obj\Debug\net10.0\CustomerManagement.Domain.sourcelink.json
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Domain\bin\Debug\net10.0\CustomerManagement.Domain.deps.json
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Domain\bin\Debug\net10.0\CustomerManagement.Domain.dll
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Domain\bin\Debug\net10.0\CustomerManagement.Domain.pdb
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Domain\obj\Debug\net10.0\CustomerManagement.Domain.dll
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Domain\obj\Debug\net10.0\refint\CustomerManagement.Domain.dll
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Domain\obj\Debug\net10.0\CustomerManagement.Domain.pdb
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Domain\obj\Debug\net10.0\ref\CustomerManagement.Domain.dll

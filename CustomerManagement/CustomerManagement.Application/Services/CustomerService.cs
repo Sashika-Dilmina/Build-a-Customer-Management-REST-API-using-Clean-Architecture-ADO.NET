@@ -1,11 +1,10 @@
 using CustomerManagement.Application.DTOs;
 using CustomerManagement.Application.Interfaces;
-using CustomerManagement.Domain,Entities;
+using CustomerManagement.Domain.Entities;
 
 namespace CustomerManagement.Application.Services;
 
-public class CustomerService : IcustomerService
-
+public class CustomerService : ICustomerService
 {
     private readonly ICustomerRepository _repository;
 
@@ -14,7 +13,7 @@ public class CustomerService : IcustomerService
 
     public async Task<CustomerResponseDto?> CreateAsync(CustomerCreateDto dto)
     {
-        var entity = new CustomerService
+        var entity = new Customer
         {
             CustomerName = dto.CustomerName,
             Address = dto.Address,
@@ -29,9 +28,8 @@ public class CustomerService : IcustomerService
     }
 
     public async Task<bool> UpdateAsync(int id, CustomerUpdateDto dto)
-
     {
-        var existing = await _repository.GetAllAsync(id);
+        var existing = await _repository.GetByIdAsync(id);
         if (existing is null) return false;
 
         existing.CustomerName = dto.CustomerName;
@@ -43,7 +41,6 @@ public class CustomerService : IcustomerService
         existing.IsActive = dto.IsActive;
 
         return await _repository.UpdateAsync(existing);
-    
     }
 
     public Task<bool> DeleteAsync(int id) => _repository.DeleteAsync(id);
@@ -60,8 +57,7 @@ public class CustomerService : IcustomerService
         return list.Select(MapToDto);
     }
 
-    private static CustomerResponseDto MapToDto(CustomerManagement c) => new()
-
+    private static CustomerResponseDto MapToDto(Customer c) => new()
     {
         CustomerId = c.CustomerId,
         CustomerCode = c.CustomerCode,
@@ -72,8 +68,6 @@ public class CustomerService : IcustomerService
         Email = c.Email,
         PhoneNumber = c.PhoneNumber,
         IsActive = c.IsActive,
-        CreatedDate = c.CreatedDate,
-
+        CreatedDate = c.CreatedDate
     };
-
 }
