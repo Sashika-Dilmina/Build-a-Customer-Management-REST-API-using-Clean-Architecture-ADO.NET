@@ -485,7 +485,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "CustomerManagement.Domain": "1.0.0"
+          "CustomerManagement.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.8"
         },
         "compile": {
           "bin/placeholder/CustomerManagement.Application.dll": {}
@@ -1271,11 +1272,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.Infrastructure\\CustomerManagement.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\Customermanagement.Infrastructure\\CustomerManagement.Infrastructure.csproj",
       "projectName": "CustomerManagement.Infrastructure",
-      "projectPath": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.Infrastructure\\CustomerManagement.Infrastructure.csproj",
+      "projectPath": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\Customermanagement.Infrastructure\\CustomerManagement.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\VICTUS\\.nuget\\packages\\",
-      "outputPath": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.Infrastructure\\obj\\",
+      "outputPath": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\Customermanagement.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
