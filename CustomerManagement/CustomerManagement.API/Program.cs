@@ -1,16 +1,12 @@
 using System.Text.Json.Serialization;
-using CustomerManagement.Application
+using CustomerManagement.Application;
 using CustomerManagement.Infrastructure;
-
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
-builder.Services.AddControllers();
+builder.Services.AddControllers()
     .AddJsonOptions(options =>
-         options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()));
-
+        options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()));
 
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure();
@@ -18,16 +14,17 @@ builder.Services.AddInfrastructure();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
-    Title = "Customer Management API",
-    Version = "v1",
-    Description = "A simple CRUD API built with Clean Architecture & ADO.NET."
-});
-
+    c.SwaggerDoc("v1", new()
+    {
+        Title = "Customer Management API",
+        Version = "v1",
+        Description = "A simple CRUD API built with Clean Architecture & ADO.NET."
+    });
 });
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -38,9 +35,5 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
-
-
 app.MapControllers();
-
 app.Run();

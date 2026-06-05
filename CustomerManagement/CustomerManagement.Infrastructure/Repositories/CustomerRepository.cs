@@ -13,11 +13,10 @@ public class CustomerRepository : ICustomerRepository
 
     public CustomerRepository(IDbConnectionFactory factory) => _factory = factory;
 
-    public async Task<Customer?> CreateAsync(CustomerRepository customer)
+    public async Task<Customer?> CreateAsync(Customer customer)
     {
         using var connection = _factory.CreateConnection();
-        using var command = new SqlCommand("dbo.usp_Customer_Insert", Connection)
-
+        using var command = new SqlCommand("dbo.usp_Customer_Insert", connection)
         {
             CommandType = CommandType.StoredProcedure
         };
@@ -25,20 +24,19 @@ public class CustomerRepository : ICustomerRepository
         command.Parameters.AddWithValue("@CustomerName", customer.CustomerName);
         command.Parameters.AddWithValue("@Address", (object?)customer.Address ?? DBNull.Value);
         command.Parameters.AddWithValue("@DateOfBirth", customer.DateOfBirth);
-        command.Parameters.AddWithValue("@Customertype", (byte)customer.CustomerType);
+        command.Parameters.AddWithValue("@CustomerType", (byte)customer.CustomerType);
         command.Parameters.AddWithValue("@Email", (object?)customer.Email ?? DBNull.Value);
         command.Parameters.AddWithValue("@PhoneNumber", (object?)customer.PhoneNumber ?? DBNull.Value);
 
         await connection.OpenAsync();
         using var reader = await command.ExecuteReaderAsync();
         return await reader.ReadAsync() ? MapToCustomer(reader) : null;
-
     }
 
     public async Task<bool> UpdateAsync(Customer customer)
     {
         using var connection = _factory.CreateConnection();
-        using var command = new SqlCommand("dbo.usp_Customer_update", connection)
+        using var command = new SqlCommand("dbo.usp_Customer_Update", connection)
         {
             CommandType = CommandType.StoredProcedure
         };
@@ -53,12 +51,11 @@ public class CustomerRepository : ICustomerRepository
         command.Parameters.AddWithValue("@IsActive", customer.IsActive);
 
         await connection.OpenAsync();
-        var result = await connection.ExecuteAsync();
+        var result = await command.ExecuteScalarAsync();  
         return result is not null && Convert.ToInt32(result) > 0;
     }
 
     public async Task<bool> DeleteAsync(int customerId)
-
     {
         using var connection = _factory.CreateConnection();
         using var command = new SqlCommand("dbo.usp_Customer_Delete", connection)
@@ -68,8 +65,8 @@ public class CustomerRepository : ICustomerRepository
         command.Parameters.AddWithValue("@CustomerId", customerId);
 
         await connection.OpenAsync();
-        using var reader = await command.ExecuteReaderAsync();
-        return await reader.ReadAsync() ? MapToCustomer(reader) : null;
+        var result = await command.ExecuteScalarAsync();
+        return result is not null && Convert.ToInt32(result) > 0;
     }
 
     public async Task<Customer?> GetByIdAsync(int customerId)
@@ -85,7 +82,6 @@ public class CustomerRepository : ICustomerRepository
         using var reader = await command.ExecuteReaderAsync();
         return await reader.ReadAsync() ? MapToCustomer(reader) : null;
     }
-
 
     public async Task<IEnumerable<Customer>> GetAllAsync()
     {
@@ -103,22 +99,19 @@ public class CustomerRepository : ICustomerRepository
             customers.Add(MapToCustomer(reader));
 
         return customers;
-
-
     }
 
     private static Customer MapToCustomer(SqlDataReader reader) => new()
     {
-        CustomerId = reader.GetInt32(reader.GetOrdinal("CustomerId")),,
+        CustomerId = reader.GetInt32(reader.GetOrdinal("CustomerId")),
         CustomerCode = reader.GetString(reader.GetOrdinal("CustomerCode")),
         CustomerName = reader.GetString(reader.GetOrdinal("CustomerName")),
         Address = reader["Address"] as string,
         DateOfBirth = reader.GetDateTime(reader.GetOrdinal("DateOfBirth")),
         CustomerType = (CustomerType)reader.GetByte(reader.GetOrdinal("CustomerType")),
         Email = reader["Email"] as string,
+        PhoneNumber = reader["PhoneNumber"] as string,
         IsActive = reader.GetBoolean(reader.GetOrdinal("IsActive")),
         CreatedDate = reader.GetDateTime(reader.GetOrdinal("CreatedDate"))
-        Address
     };
 }
-

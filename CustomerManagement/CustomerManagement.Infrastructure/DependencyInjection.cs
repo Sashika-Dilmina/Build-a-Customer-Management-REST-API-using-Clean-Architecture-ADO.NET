@@ -1,6 +1,6 @@
 using CustomerManagement.Application.Interfaces;
-using CustometManagement.Infrastructure.Persistence;
-using CustomerManagement.Infrastructure,Repositories;
+using CustomerManagement.Infrastructure.Persistence;
+using CustomerManagement.Infrastructure.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CustomerManagement.Infrastructure;

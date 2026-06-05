@@ -1,7 +1,7 @@
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 
-namspace CustomerManagement.Infrastructure.Persistence;
+namespace CustomerManagement.Infrastructure.Persistence;
 
 public interface IDbConnectionFactory
 {
@@ -19,9 +19,7 @@ public class SqlConnectionFactory : IDbConnectionFactory
                 "Connection string 'DefaultConnection' was not found.");
     }
 
-    public SqlConnectionFactory CreateConnection() => new(_connectionString);
-
+    public SqlConnection CreateConnection() => new(_connectionString);
 }
-
 
 

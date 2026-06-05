@@ -1,6 +1,16 @@
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Application\bin\Debug\net10.0\CustomerManagement.Application.deps.json
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Application\bin\Debug\net10.0\CustomerManagement.Application.dll
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Application\bin\Debug\net10.0\CustomerManagement.Application.pdb
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Application\bin\Debug\net10.0\CustomerManagement.Domain.dll
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Application\bin\Debug\net10.0\CustomerManagement.Domain.pdb
 D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Application\obj\Debug\net10.0\CustomerManagement.Application.csproj.AssemblyReference.cache
 D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Application\obj\Debug\net10.0\CustomerManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
 D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Application\obj\Debug\net10.0\CustomerManagement.Application.AssemblyInfoInputs.cache
 D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Application\obj\Debug\net10.0\CustomerManagement.Application.AssemblyInfo.cs
 D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Application\obj\Debug\net10.0\CustomerManagement.Application.csproj.CoreCompileInputs.cache
 D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Application\obj\Debug\net10.0\CustomerManagement.Application.sourcelink.json
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Application\obj\Debug\net10.0\Customer.ED26E553.Up2Date
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Application\obj\Debug\net10.0\CustomerManagement.Application.dll
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Application\obj\Debug\net10.0\refint\CustomerManagement.Application.dll
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Application\obj\Debug\net10.0\CustomerManagement.Application.pdb
+D:\Intern Works\Day1\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\CustomerManagement\CustomerManagement.Application\obj\Debug\net10.0\ref\CustomerManagement.Application.dll

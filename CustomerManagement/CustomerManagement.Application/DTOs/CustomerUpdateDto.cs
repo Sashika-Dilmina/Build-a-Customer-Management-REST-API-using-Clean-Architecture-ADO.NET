@@ -6,7 +6,7 @@ namespace CustomerManagement.Application.DTOs;
 public class CustomerUpdateDto
 {
     [Required, StringLength(150)]
-    public string Customername { get; set; } = string.Empty;
+    public string CustomerName { get; set; } = string.Empty;
 
     [StringLength(250)]
     public string? Address { get; set; }
@@ -15,7 +15,7 @@ public class CustomerUpdateDto
     public DateTime DateOfBirth { get; set; }
 
     [Required]
-    public CustomerType Customertype { get; set; }
+    public CustomerType CustomerType { get; set; }
 
     [EmailAddress, StringLength(150)]
     public string? Email {  get; set; }

@@ -3,12 +3,11 @@
     "",
     "\\CustomerManagement.API",
     "\\CustomerManagement.Application",
-    "\\CustomerManagement.Application\\DTOs",
-    "\\CustomerManagement.Application\\Interfaces",
-    "\\CustomerManagement.Application\\Services",
     "\\CustomerManagement.Domain",
-    "\\CustomerManagement.Domain\\Enum"
+    "\\CustomerManagement.Domain\\Entities",
+    "\\CustomerManagement.Domain\\Enum",
+    "\\CustomerManagement.Infrastructure"
   ],
-  "SelectedNode": "\\CustomerManagement.Application\\Services\\CustomerService.cs",
+  "SelectedNode": "\\CustomerManagement.Application\\Interfaces",
   "PreviewInSolutionExplorer": false
 }
