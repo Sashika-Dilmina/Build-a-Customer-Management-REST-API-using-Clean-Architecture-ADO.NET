@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using CustomerManagement.Domain.Enums;
+using CustomerManagement.Application.Validation;
 
 namespace CustomerManagement.Application.DTOs;
 
@@ -12,6 +13,7 @@ public class CustomerUpdateDto
     public string? Address { get; set; }
 
     [Required]
+    [DateNotInFuture]
     public DateTime DateOfBirth { get; set; }
 
     [Required]

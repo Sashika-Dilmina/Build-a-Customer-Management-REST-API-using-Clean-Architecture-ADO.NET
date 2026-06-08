@@ -1,13 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CustomerManagement.API",
     "\\CustomerManagement.Application",
     "\\CustomerManagement.Domain",
     "\\CustomerManagement.Domain\\Entities",
     "\\CustomerManagement.Domain\\Enum",
-    "\\CustomerManagement.Infrastructure"
+    "\\CustomerManagement.Infrastructure",
+    "\\CustomerManagement.Infrastructure\\Persistence",
+    "\\CustomerManagement.Infrastructure\\Repositories"
   ],
-  "SelectedNode": "\\CustomerManagement.Application\\Interfaces",
+  "SelectedNode": "\\CustomerManagement.Application",
   "PreviewInSolutionExplorer": false
 }

@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\Customermanagement.Infrastructure\\CustomerManagement.Infrastructure.csproj": {}
+    "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.Infrastructure\\CustomerManagement.Infrastructure.csproj": {}
   },
   "projects": {
     "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.Application\\CustomerManagement.Application.csproj": {
@@ -698,14 +698,14 @@
         }
       }
     },
-    "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\Customermanagement.Infrastructure\\CustomerManagement.Infrastructure.csproj": {
+    "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.Infrastructure\\CustomerManagement.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\Customermanagement.Infrastructure\\CustomerManagement.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.Infrastructure\\CustomerManagement.Infrastructure.csproj",
         "projectName": "CustomerManagement.Infrastructure",
-        "projectPath": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\Customermanagement.Infrastructure\\CustomerManagement.Infrastructure.csproj",
+        "projectPath": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.Infrastructure\\CustomerManagement.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\VICTUS\\.nuget\\packages\\",
-        "outputPath": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\Customermanagement.Infrastructure\\obj\\",
+        "outputPath": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

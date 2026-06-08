@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.API\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CustomerManagement.API\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.API\\Controllers\\CustomersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CustomerManagement.API\\Controllers\\CustomersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.Domain\\Enum\\CustomerType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CustomerManagement.Domain\\Enum\\CustomerType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CustomerManagement.API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.API\\Controllers\\CustomersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CustomerManagement.API\\Controllers\\CustomersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.Infrastructure\\Repositories\\CustomerRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CustomerManagement.Infrastructure\\Repositories\\CustomerRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.API\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CustomerManagement.API\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.Application\\Services\\CustomerService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.Application\\DTOs\\CustomerUpdateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CustomerManagement.Application\\DTOs\\CustomerUpdateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.Domain\\Enum\\CustomerType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CustomerManagement.Domain\\Enum\\CustomerType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,51 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomersController.cs",
-              "DocumentMoniker": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.API\\Controllers\\CustomersController.cs",
-              "RelativeDocumentMoniker": "CustomerManagement.API\\Controllers\\CustomersController.cs",
-              "ToolTip": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.API\\Controllers\\CustomersController.cs",
-              "RelativeToolTip": "CustomerManagement.API\\Controllers\\CustomersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T10:47:21.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.API\\Program.cs",
-              "RelativeDocumentMoniker": "CustomerManagement.API\\Program.cs",
-              "ToolTip": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.API\\Program.cs",
-              "RelativeToolTip": "CustomerManagement.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T11:22:10.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.API\\appsettings.json",
               "RelativeDocumentMoniker": "CustomerManagement.API\\appsettings.json",
               "ToolTip": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.API\\appsettings.json",
               "RelativeToolTip": "CustomerManagement.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-06-03T10:38:54.364Z",
               "EditorCaption": ""
@@ -95,14 +61,27 @@
               "RelativeDocumentMoniker": "CustomerManagement.Infrastructure\\Repositories\\CustomerRepository.cs",
               "ToolTip": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.Infrastructure\\Repositories\\CustomerRepository.cs",
               "RelativeToolTip": "CustomerManagement.Infrastructure\\Repositories\\CustomerRepository.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAADwvzUAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-03T10:34:49.173Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "CustomerManagement.API\\Program.cs",
+              "ToolTip": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.API\\Program.cs",
+              "RelativeToolTip": "CustomerManagement.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T11:22:10.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CustomerService.cs",
               "DocumentMoniker": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.Application\\Services\\CustomerService.cs",
               "RelativeDocumentMoniker": "CustomerManagement.Application\\Services\\CustomerService.cs",
@@ -110,12 +89,11 @@
               "RelativeToolTip": "CustomerManagement.Application\\Services\\CustomerService.cs",
               "ViewState": "AgIAACMAAAAAAAAAAADwv0gAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T16:31:21.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T16:31:21.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CustomerUpdateDto.cs",
               "DocumentMoniker": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.Application\\DTOs\\CustomerUpdateDto.cs",
               "RelativeDocumentMoniker": "CustomerManagement.Application\\DTOs\\CustomerUpdateDto.cs",
@@ -123,12 +101,11 @@
               "RelativeToolTip": "CustomerManagement.Application\\DTOs\\CustomerUpdateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T16:28:46.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T16:28:46.698Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "CustomerType.cs",
               "DocumentMoniker": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.Domain\\Enum\\CustomerType.cs",
               "RelativeDocumentMoniker": "CustomerManagement.Domain\\Enum\\CustomerType.cs",
@@ -136,7 +113,29 @@
               "RelativeToolTip": "CustomerManagement.Domain\\Enum\\CustomerType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T11:35:29.269Z"
+              "WhenOpened": "2026-06-03T11:35:29.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.API\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "CustomerManagement.API\\Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\Intern Works\\Day1\\Build-a-Customer-Management-REST-API-using-Clean-Architecture-ADO.NET\\CustomerManagement\\CustomerManagement.API\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "CustomerManagement.API\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T10:47:21.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }
